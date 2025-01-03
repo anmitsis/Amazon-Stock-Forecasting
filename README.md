@@ -105,7 +105,7 @@ After training, the model's performance is evaluated:
    - X-axis: Time (dates)
    - Y-axis: Stock prices
    - Lines: Actual vs. Predicted prices
-   ![Stock Price Prediction](visualization.png)
+   ![Stock Price Prediction](Visualization.png)
 
 4. **Adjust configurations**:
    Modify hyperparameters such as `n_steps`, learning rate, or LSTM layers directly in the notebook to experiment with different setups.
