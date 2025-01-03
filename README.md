@@ -12,9 +12,8 @@ This project focuses on forecasting Amazon stock prices using time-series data a
     - [3. Defining the LSTM Model](#3-defining-the-lstm-model)
     - [4. Training the Model](#4-training-the-model)
     - [5. Evaluating and Visualizing Results](#5-evaluating-and-visualizing-results)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Results](#results)
+4. [Usage](#usage)
+5. [Results](#results)
 
 
 ---
@@ -102,10 +101,8 @@ After training, the model's performance is evaluated:
    The notebook automatically generates plots that compare the predicted stock prices with actual values to assess model performance.
 
    Example visualization:
-   - X-axis: Time (dates)
-   - Y-axis: Stock prices
-   - Lines: Actual vs. Predicted prices
-   ![Stock Price Prediction](Visualization.png)
+  
+   ![Stock Price Prediction](Visualisation.png)
 
 4. **Adjust configurations**:
    Modify hyperparameters such as `n_steps`, learning rate, or LSTM layers directly in the notebook to experiment with different setups.
@@ -123,30 +120,11 @@ The LSTM model demonstrates the ability to predict Amazon stock prices by captur
   - Struggles to predict sharp, sudden changes caused by market shocks or news events.
   - Predictions may lag during highly volatile periods, reflecting the limitations of time-series models for chaotic data.
 
-### Visualization:
 
-The notebook generates plots that compare the actual and predicted stock prices. A typical visualization includes:
-
-- **X-axis**: Time (dates).
-- **Y-axis**: Stock prices.
-- **Lines**: 
-  - The actual stock prices are displayed as a continuous line.
-  - The predicted stock prices are overlaid for direct comparison.
-
-These visualizations provide a clear picture of where the model performs well and where it diverges, helping to identify potential areas for improvement.
 
 ### Example Insights:
 
 - The model predicts long-term trends more effectively than short-term fluctuations.
 - Training on larger datasets or including additional features could enhance short-term prediction accuracy.
 
-Let me know if you'd like me to expand this further with details on numerical metrics (e.g., RMSE, MAE) or specific plots!```
 
-## Installation
-
-Follow these steps to set up the project:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/anmit/Amazon-Stock-Forecasting.git
-   cd Amazon-Stock-Forecasting
